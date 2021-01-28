@@ -9,6 +9,7 @@ form.addEventListener('submit', (e) => {
         name: formData.get('name'),
         element: formData.get('element'),
         jp: 0,
+        cp: 0,
         completed: {},
     };
 

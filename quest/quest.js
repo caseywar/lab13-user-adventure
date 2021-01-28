@@ -5,6 +5,8 @@ const h1 = document.querySelector('h1');
 const p = document.querySelector('p');
 const img = document.querySelector('section img');
 const form = document.querySelector('form');
+const resultsSpan = document.querySelector('#results-span');
+const backToMap = document.querySelector('#back-to-map');
 
 const params = new URLSearchParams(window.location.search);
 
@@ -47,10 +49,15 @@ form.addEventListener('submit', (e) => {
     const user = JSON.parse(localStorage.getItem('USER'));
 
     user.jp += choice.jp;
+    user.cp += choice.cp;
 
+    resultsSpan.textContent = choice.result;
     user.completed[questId] = true;
 
     localStorage.setItem('USER', JSON.stringify(user));
 
+});
+
+backToMap.addEventListener('click', () => {
     window.location = '../map';
 });
