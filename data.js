@@ -1,3 +1,4 @@
+
 const library = {
     id: 'library',
     title: 'The Library',
@@ -90,3 +91,10 @@ const island = {
         jp: 5,
     }]
 };
+
+const quests = [
+    library,
+    tunnel,
+    island,
+];
+export default quests;
