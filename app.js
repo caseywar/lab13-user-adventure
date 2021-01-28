@@ -1,4 +1,4 @@
-import { setUser } from '../utils.js';
+import { setUser } from './utils.js';
 
 const form = document.querySelector('form');
 
