@@ -1,5 +1,6 @@
 # adventure quest lab
 ## pages
+- add data to data.js
 1. Home Page
 - form for user data
     - on submit
