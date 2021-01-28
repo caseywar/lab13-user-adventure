@@ -2,7 +2,7 @@ function scoreJp(jp) {
     if (jp < -4) {
         return 'dead';
     }
-    if (hp > -3 && hp < 9) {
+    if (jp > -3 && jp < 9) {
         return 'average';
     }
     return 'great';

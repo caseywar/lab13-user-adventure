@@ -46,11 +46,9 @@ form.addEventListener('submit', (e) => {
     const choice = findById(quest.choices, selectionId);
     const user = JSON.parse(localStorage.getItem('USER'));
 
-    console.log('=============================\n');
-    console.log('|| quest', quest);
-    console.log('\n=============================');
-
     user.jp += choice.jp;
+
+    user.completed[questId] = true;
 
     localStorage.setItem('USER', JSON.stringify(user));
 
