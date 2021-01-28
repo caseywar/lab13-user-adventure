@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
 
     const user = {
         name: formData.get('name'),
-        element: formData.get('character'),
+        element: formData.get('element'),
         jp: 0,
         completed: {},
     };
