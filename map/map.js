@@ -11,7 +11,7 @@ for (let quest of questData) {
     }
 }
 
-if (user.hp <= -4 || completedAllQuests) {
+if (user.jp <= -4 || completedAllQuests) {
     window.location = '../results';
 }
 
