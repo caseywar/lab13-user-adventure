@@ -13,9 +13,12 @@ body {
     background-color: teal;
     background-image: url('../assets/avatar-map.jpg');
     position: relative;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 .main-section {
     font-size: 40px;
-    background: yellowgreen;
+    background: rgb(224, 240, 193);
+    opacity: .82;
 }
+

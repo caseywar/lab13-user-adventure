@@ -26,7 +26,7 @@ if (jpResult === 'dead') {
 }
 const cpMessage = cpMessages[cpResult];
 
-const story = `After saving the world ${user.name} the ${user.element} bender ${jpMessage}. ${cpMessage}.`;
+const story = `After saving the world, ${user.name} the ${user.element} bender ${jpMessage}. ${cpMessage}.`;
 
 storyDisplay.textContent = story;
 

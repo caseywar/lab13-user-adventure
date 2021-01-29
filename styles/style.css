@@ -11,6 +11,28 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    background-image: url('../assets/title-page.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    
+}
+
+.title {
+    font-size: 70px;
+    font-weight: bolder;
+    color: teal;
+    align-items: baseline;  
+    font-family: 'Julius Sans One', sans-serif;
+  
+}
+
+.main-section {
+    background: rgb(206, 175, 117);
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 label {
@@ -19,4 +41,9 @@ label {
 
 img {
     width: 1000px;
+
+}
+
+.bend-choice-text {
+    font-size: 23px;
 }

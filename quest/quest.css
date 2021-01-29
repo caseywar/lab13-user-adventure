@@ -1,0 +1,13 @@
+body {
+    background-image: url('../assets/avatar.png');
+}
+
+label {
+    background: rgb(168, 237, 241);
+    line-height: 30pt;
+}
+
+.main-section {
+    width: 1500px;
+
+}
